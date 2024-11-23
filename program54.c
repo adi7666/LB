@@ -1,7 +1,7 @@
 #include<stdio.h>
 void DisplayDigits(int iNo)
 {
-    if(iNo < 0 )
+    if(iNo < 0 )    //updater
     {
         iNo = -iNo;
     }

@@ -1,30 +1,35 @@
 #include<stdio.h>
-int CountDigits(int iNo)
+
+int CountEvenDigits(int iNo)
 {
-    if(iNo < 0 )
+    int iDigit = 0, iCount = 0;
+
+    if(iNo < 0) // Updator
     {
         iNo = -iNo;
     }
-    int iCount =0;
-    int iDigits = 0;
+
     while(iNo > 0)
     {
-        iDigits = iNo % 10;
-        if(iDigits %2 = =0){
-        iCount++;
+        iDigit = iNo % 10;
+        if(iDigit % 2 == 0)
+        {
+            iCount++;
         }
-        iNo = iNo /10;
-        
+        iNo = iNo / 10;
     }
     return iCount;
 }
+
 int main()
 {
-    int iValue = 0, iRet =0;
-    printf("Enter The Number \n");
+    int iValue = 0, iRet = 0;
+
+    printf("Enter number : \n");
     scanf("%d",&iValue);
-    iRet =CountDigits(iValue);
-    printf("Enter the even Digits are : %d\n", iRet);
+
+    iRet = CountEvenDigits(iValue);
+    printf("Number of even digits are : %d\n",iRet);
+
     return 0;
 }
-

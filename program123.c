@@ -11,13 +11,13 @@
 
 void display(int iROw, int iCol){
     int i =0, j=0;
-    for(i =1; i<=iROw; i++)
+    // for(i =1; i<=iROw; i++)
     {
         printf("%d\t",i);
         for(j = 1; j <= iCol; j++)
         {
-            if(i== j){
-                printf("&\t");
+            if(j % 2 == 0){
+                printf("#\t");
             }
             else{
                 printf("@\t");

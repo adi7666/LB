@@ -3,10 +3,10 @@
 void display(int ptr[])
 {
     printf("Values of araay ARE: \n");
-    printf("%d\n", ptr[0]);
-    printf("%d\n", ptr[1]);
-    printf("%d\n", ptr[2]);
-    printf("%d\n", ptr[3]);
+    printf("%d\n", ptr[0]);     //*(ptr +0)
+    printf("%d\n", ptr[1]);     //*(ptr + 1)
+    printf("%d\n", ptr[2]);     //*(ptr + 2)
+    printf("%d\n", ptr[3]);     //*(ptr + 3)
     
     
 }

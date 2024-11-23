@@ -1,4 +1,11 @@
 #include<stdio.h>
+
+/*
+    8   9.30
+    9   10.30
+    10  11.30
+*/
+
 void displayTimeTable(int iStd){
     if(iStd == 8){
         printf("Your Exam is 9:30");

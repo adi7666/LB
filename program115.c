@@ -8,18 +8,32 @@
     
 */
 
+
+// 
+//      Step 1:
+// 
 #include<stdio.h>
-void Display(int iNo)
+void Display()
 {
-    int iCnt
+    printf("*\t");
+    printf("*\t");
+    printf("*\t");
+    printf("\n");
+
+    printf("*\t");
+    printf("*\t");
+    printf("*\t");
+    printf("\n");
+
+    printf("*\t");
+    printf("*\t");
+    printf("*\t");
+    printf("\n");
 }
 int main()
 {
-    int iValue =0;
-    printf("Enter the no \n");
-    scanf("%d",&iValue);
-
-    Display(iValue);
+    
+    Display();
 
     return 0;
 }
