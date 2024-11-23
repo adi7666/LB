@@ -12,11 +12,14 @@ int main()
 {
     int *ptr = NULL;
     int iLength = 0, iCnt = 0, iRet =0;
+    
     // Step 1 : Accept the number of element from user
     printf("ENter the number of elements\n");
     scanf("%d", &iLength);
+    
     // step 2 : ALlocate that memory dynamically
     ptr = (int*)malloc(iLength *sizeof(int));
+    
     // step 3 Acccept the values and store into the dynamic memory
     printf("Enter the element : \n");
     for(iCnt =0; iCnt <iLength; iCnt++){

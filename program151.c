@@ -1,29 +1,28 @@
-    #include<stdio.h>
+#include<stdio.h>
 
-int count(char *ptr)
+int strlenX(char *ptr)
 {
     int iCount = 0;
-    while (*ptr != '\0'){
-    printf("%c\n", *ptr);
-    if(*ptr == 'a'){iCount++;}
-    ptr++;
-    
-    
+
+    while(*ptr != '\0')
+    {
+        iCount++;
+        ptr++;
     }
     return iCount;
 }
-int main ()
+
+int main()
 {
-    int iRet = 0;
     char Arr[30];
-    char *ptr = Arr;
+    int iRet = 0;
 
-    printf("Enter the name : \n");
-    scanf("%[^'\n']s",Arr);        // Accept till First Space only
+    printf("Enter string : \n");
+    scanf("%[^'\n']s",Arr);
 
-    iRet = count(Arr);
+    iRet = strlenX(Arr);   // Display(100);
 
-    printf("Count of a  is : %d\n", iRet);
-    
+    printf("Length of string is : %d\n",iRet);
+
     return 0;
 }

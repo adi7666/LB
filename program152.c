@@ -1,29 +1,31 @@
-    #include<stdio.h>
+#include<stdio.h>
 
-int countsmall(char *ptr)
+int Count(char *ptr)
 {
     int iCount = 0;
-    while (*ptr != '\0'){
-    printf("%c\n", *ptr);
-    if(*ptr >= 97 && *ptr <= 122){iCount++;}
-    ptr++;
-    
-    
+
+    while(*ptr != '\0')
+    {
+        if(*ptr == 'a')
+        {
+            iCount++;
+        }
+        ptr++;
     }
     return iCount;
 }
-int main ()
+
+int main()
 {
-    int iRet = 0;
     char Arr[30];
-    char *ptr = Arr;
+    int iRet = 0;
 
-    printf("Enter the name : \n");
-    scanf("%[^'\n']s",Arr);        // Accept till First Space only
+    printf("Enter string : \n");
+    scanf("%[^'\n']s",Arr);
 
-    iRet = countsmall(Arr);
+    iRet = Count(Arr);   // Display(100);
 
-    printf("Count of Small Letters : %d\n", iRet);
-    
+    printf("count of a is : %d\n",iRet);
+
     return 0;
 }
