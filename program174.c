@@ -6,7 +6,7 @@ bool ChkWtr(char *str, char ch)
     bool bflag = false;
     while(*str != '\0')
     {
-        if(*str == ch){
+        if(*str ==ch){
         
         bflag = true;
         break;

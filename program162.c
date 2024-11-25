@@ -21,7 +21,7 @@ int main ()
     
     iRet = strlenX(Arr);
     
-    printf("Length of String is  : %d\n", iRet);    
+    printf("Length of String is  :  %d\n", iRet);    
     
     return 0;
 }

@@ -16,7 +16,7 @@ int main ()
     printf("Enter the String : \n");
     scanf("%[^'\n']s",Arr);        // Accept till First Space only
 
-    display(Arr);
+    display(Arr);       //Display(100)
     
     return 0;
 }

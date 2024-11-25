@@ -20,11 +20,11 @@ int main ()
     int iRet = 0;
 
     printf("Enter the String : \n");
-    scanf("%[^'\n']s",Arr);        // Accept till First Space only
+    scanf("%[^'\n']s",Arr);       
     
     iRet = CountVowels(Arr);
     
-    printf("Number of vowels is : %d\n", iRet);    
+    printf("Number of m in this is : %d\n", iRet);    
     
     return 0;
 }

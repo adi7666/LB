@@ -5,7 +5,7 @@ void Update(char *str)
 {
     while(*str != '\0')
     {
-        if(*str == 'a')
+        if(*str =='a')
         {
             *str = 'd';
         }

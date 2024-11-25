@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int CountVowels(char *str)
+int CountCapVowels(char *str)
 {
     int iCount = 0;
     while(*str != '\0')
@@ -22,7 +22,7 @@ int main ()
     printf("Enter the String : \n");
     scanf("%[^'\n']s",Arr);        // Accept till First Space only
     
-    iRet = CountVowels(Arr);
+    iRet = CountCapVowels(Arr);
     
     printf("Number of vowels is : %d\n", iRet);    
     

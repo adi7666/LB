@@ -27,7 +27,7 @@ int main ()
     scanf("%c", &cValue);
     iRet = Count(Arr, cValue);
     
-    printf("Number of m in this is : %d\n", iRet);    
+    printf("Number of m in this is  : %d\n", iRet);    
     
     return 0;
 }

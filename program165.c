@@ -2,16 +2,16 @@
 
 int CountSmallLetter(char *str)
 {
-    int iCnt = 0;
+    int iCount = 0;
     while(*str != '\0')
     {
         if(*str >= 'a' && *str <= 'z'){
         
-        iCnt++;
+        iCount++;
         }
         str++;
     }
-    return iCnt;
+    return iCount;
 }
 
 int main ()

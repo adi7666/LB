@@ -23,7 +23,7 @@ int main ()
     printf("Enter the String : \n");
     scanf("%[^'\n']s",Arr);       
     
-    printf("Enter the Characterr you want : \n");
+    printf("Enter the Characterr you want : \n ");
     scanf(" %c", &cValue);
     iRet = Count(Arr, cValue);
     

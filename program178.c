@@ -21,7 +21,7 @@ void StrtoggleX(char *str)
 
 int main ()
 {
-    char Arr[30];
+    char Arr[25];
     bool bRet = false;
     char cValue = '\0';
 

@@ -8,7 +8,6 @@ int main ()
 
     printf("Enter the String : \n");
     scanf("%[^'\n']s",Arr);        // Accept till First Space only
-
     
     iRet = strlen(Arr);
     

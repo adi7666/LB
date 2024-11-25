@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int CountVowels(char *str)
+int CountVowels(char *str)      //Case Sensitive
 {
     int iCount = 0;
     while(*str != '\0')

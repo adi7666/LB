@@ -24,7 +24,7 @@ int main ()
     
     iRet = CountVowels(Arr, 'm');
     
-    printf("Number of m in this is : %d\n", iRet);    
+    printf("Number of m in this is ..: %d\n", iRet);    
     
     return 0;
 }

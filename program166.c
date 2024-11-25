@@ -5,7 +5,7 @@ int Count(char *str)
     int iCount = 0;
     while(*str != '\0')
     {
-        if(*str == 'a' || *str == 'A' || *str == 'B' || *str == 'b'){
+        if(*str == 'a'  || *str == 'A' || *str == 'B' || *str == 'b'){
         
         iCount++;
         }

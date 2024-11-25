@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdbool.h>
  
+// This is right solution
+
 void StrtoggleX(char *str)
 {
     while(*str != '\0')
@@ -28,7 +30,7 @@ int main ()
     
    StrtoggleX(Arr);
 
-   printf("String after CONVERTED into Capital letter is %s\n",Arr);
+   printf("String after CONVERTED into Capital letter is :s %s\n",Arr);
     
     return 0;
 }
