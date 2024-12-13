@@ -22,7 +22,7 @@ class Array
     {
         int iCnt = 0;
         cout<<"Enter the Values \n";
-        for(iCnt = 1; iCnt< iSize; iCnt++)
+        for(iCnt = 1; iCnt<= iSize; iCnt++)
         {
             cin>>Arr[iCnt];
         }
@@ -31,23 +31,24 @@ class Array
     {
         int iCnt =0;
         cout<<"Values from the array are :\n";
-        for(iCnt = 1; iCnt< iSize; iCnt++)        //Logic (Function ->Display())
+        for(iCnt = 1; iCnt<= iSize; iCnt++)        //Logic (Function ->Display())
         {
             cout<<Arr[iCnt]<<endl;
         }
     }
     int CountEven()
-    {
-        int iCnt = 0,iCount =0;
-        for(iCnt = 1; iCnt <iSize; iCnt++)
         {
-            if(Arr[iCnt] %2 == 0)
+            int iCnt = 0, iCount = 0;
+
+            for(iCnt = 0; iCnt <= iSize; iCnt++)
             {
-                iCount++
+                if(Arr[iCnt] % 2 == 0)
+                {
+                    iCount++;
+                }
             }
+            return iCount;
         }
-        return iCount;
-    }
 };
 
 int main()
