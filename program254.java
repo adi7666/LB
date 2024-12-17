@@ -3,31 +3,28 @@ import java.util.Scanner;
 
 class program254
 {
-    public static void main(String Args[])
+    public static void main(String A[])
     {
-
         Scanner sobj = new Scanner(System.in);
-        int iSize =0;
+        int iSize = 0, i = 0;
 
-        System.out.println("Enter The NUmber of Elements : ");
-        iSize =sobj.nextInt();
+        System.out.println("Enter the number of elements : ");  // Step 1
+        iSize = sobj.nextInt();
 
-        int Arr[] = new int[iSize];
+        int Arr[] = new int[iSize];                             // Step 2
 
-        System.out.println("Enter the Elements");
-
-        for(int i = 0; i<iSize; i++)
+        System.out.println("Enter the elements : ");
+        for(i = 0; i < Arr.length; i++)                              // Step 3
         {
             Arr[i] = sobj.nextInt();
-
         }
-
-        System.out.println("Element of Array are : ");
-        for(int  i = 0; i<iSize; i++)
+                                                                // Logic Step 4
+        System.out.println("Elements of the array are : ");
+        for(i = 0; i < Arr.length; i++)
         {
             System.out.println(Arr[i]);
         }
-    
+                                                               // Deallocation Step 5
     }
 }
 

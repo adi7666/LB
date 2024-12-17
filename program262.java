@@ -50,7 +50,7 @@ class ArrayX
     }
 }
 
-class program264
+class program262
 {
     public static void main(String A[])
     {
